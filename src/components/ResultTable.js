@@ -13,7 +13,7 @@ export default function ResultTable() {
         }, 1000);
         return () => clearTimeout(timer);
 
-    }, [])
+    })
     return (
         <div>
             <table>

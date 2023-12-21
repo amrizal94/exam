@@ -28,7 +28,7 @@ export default function Main() {
             <h1 className='title text-light'>Exam Application</h1>
             <ol>
                 <li>You will be asked {data?.totalQuestions || 0} questions one after another.</li>
-                <li>Passing score requirements: {data?.minim}%.</li>
+                <li>Passing score requirements: {data?.minim || 0}%.</li>
                 <li>You can review and change answes before the exam finis.</li>
                 <li>The result will be declared at the end exam.</li>
             </ol>
